@@ -114,7 +114,7 @@ WHERE id IN (
 | Basic Queries    | `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`     |
 | Joins            | `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`       |
 | Aggregation      | `COUNT()`, `SUM()`, `AVG()`, `MAX()`, `MIN()` |
-| Filtering        | `HAVING`, `CASE WHEN`                         |
+| Filtering        | `HAVING`, `CASE WHEN` ,'wWHERE'                        |
 | Subqueries       | `IN`, `EXISTS`, correlated subqueries         |
 | Window Functions | `RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`      |
 | CTEs             | `WITH` clause usage                           |
