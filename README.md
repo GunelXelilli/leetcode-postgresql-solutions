@@ -6,7 +6,7 @@ Each problem is categorized by difficulty (Easy / Medium / Hard) and written usi
 ---
 
 ## 🧭 Table of Contents
-- [About](#about)
+- [About](#https://github.com/GunelXelilli/leetcode-postgresql-solutions/tree/main?tab=readme-ov-file#-about)
 - [Repository Structure](#repository-structure)
 - [Solved Problems](#solved-problems)
 - [Example Format](#example-format)
