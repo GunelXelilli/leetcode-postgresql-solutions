@@ -114,6 +114,9 @@ WHERE id IN (
   HAVING COUNT(id) >= 5
 );
 
+
+---
+
 | Category         | Examples                                      |
 | ---------------- | --------------------------------------------- |
 | Basic Queries    | `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`     |
@@ -125,6 +128,8 @@ WHERE id IN (
 | CTEs             | `WITH` clause usage                           |
 
 
+---
+
 🛠️ Environment
 
 Database: PostgreSQL 16
@@ -134,11 +139,16 @@ Tools: DBeaver / pgAdmin 4 / VS Code SQLTools
 Platform: LeetCode SQL 50 Study Plan
 
 
+---
+
 📜 License
 
 This repository is open-source and licensed under the MIT License
 .
 You’re free to use, reference, or build upon this code for learning purposes.
+
+
+---
 
 
 📫 **Contact**
