@@ -1,6 +1,5 @@
--- Problem:
---   Find all dates where the temperature was higher than the previous day.
---   Return the IDs of the records where this condition is true.
+-- Problem: Find all dates where the temperature was higher than the previous day.
+-- Return the IDs of the records where this condition is true.
 -- Link: https://leetcode.com/problems/rising-temperature/
 
 SELECT id
