@@ -1,5 +1,3 @@
--- 197. Rising Temperature
--- Difficulty: Easy
 -- Problem:
 --   Find all dates where the temperature was higher than the previous day.
 --   Return the IDs of the records where this condition is true.
