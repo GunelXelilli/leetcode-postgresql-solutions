@@ -1,6 +1,6 @@
 -- Problem: Consecutive Numbers
 -- Link: https://leetcode.com/problems/consecutive-numbers/
--- Difficulty: Easy
+-- Difficulty: Medium
 -- Description:
 --   Find all numbers that appear three times consecutively in the Logs table.
 --   Return them as consecutiveNums.
