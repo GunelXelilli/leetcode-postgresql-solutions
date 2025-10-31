@@ -28,26 +28,25 @@ All queries are implemented and tested in **PostgreSQL**, focusing on:
 ---
 
 ## 🗂️ Repository Structure
-📦 leetcode-postgresql-solutions/
-┣ 📂 easy/
-┃ ┣ big-countries.sql
-┃ ┣ combine-two-tables.sql
-┃ ┣ employees-earning-more-than-their-managers.sql
-┃ ┣ find-customer-referee.sql
-┃ ┣ article-views-i.sql
-┃ ┗ ...
-┣ 📂 medium/
-┃ ┣ consecutive-numbers.sql
-┃ ┣ managers-with-at-least-5-direct-reports.sql
-┃ ┣ second-highest-salary.sql
-┃ ┣ rank-scores.sql
-┃ ┗ ...
-┣ 📂 hard/
-┃ ┗ department-top-three-salaries.sql
-┣ 📂 explanations/
-┃ ┗ problem-explanations.md
-┣ README.md
-┗ LICENSE
+leetcode-postgresql-solutions/
+├── easy/
+│   ├── big-countries.sql
+│   ├── combine-two-tables.sql
+│   ├── employees-earning-more-than-their-managers.sql
+│   ├── find-customer-referee.sql
+│   ├── article-views-i.sql
+├── medium/
+│   ├── consecutive-numbers.sql
+│   ├── managers-with-at-least-5-direct-reports.sql
+│   ├── second-highest-salary.sql
+│   ├── rank-scores.sql
+├── hard/
+│   ├── department-top-three-salaries.sql
+├── explanations/
+│   └── problem-explanations.md
+├── README.md
+└── LICENSE
+
 
 ---
 
