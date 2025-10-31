@@ -16,3 +16,5 @@ FROM (
 WHERE temperature > prev_temp
   AND recordDate = prev_date + INTERVAL '1 day';
 
+
+
