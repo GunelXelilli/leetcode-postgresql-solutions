@@ -1,17 +1,19 @@
--- Problem: Department Top Three Salaries
--- Link: https://leetcode.com/problems/department-top-three-salaries/
+-- Problem: Department Highest Salary
+-- Link: https://leetcode.com/problems/department-highest-salary/
 -- Difficulty: Medium
 -- Description:
---   For each department, find the top three highest-paid employees. 
---   Return department name, employee name, and salary.
+--   Find employees who have the highest salary in each department.
+--   Return the department name, employee name, and salary.
 
 SELECT d.name AS Department,
        e.name AS Employee,
        e.salary AS Salary
-FROM (
-    SELECT *,
-           DENSE_RANK() OVER (PARTITION BY departmentId ORDER BY salary DESC) AS rk
-    FROM Employee
-) e
+FROM Employee e
 JOIN Department d ON e.departmentId = d.id
-WHERE e.rk <= 3;
+WHERE e.salary = (
+    SELECT MAX(salary)
+    FROM Employee
+    WHERE departmentId = e.departmentId
+)
+ORDER BY d.name, e.salary DESC;
+
