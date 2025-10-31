@@ -127,15 +127,6 @@ Tools: DBeaver / pgAdmin 4 / VS Code SQLTools
 
 Platform: LeetCode SQL 50 Study Plan
 
-🏷️ Badges
-
-
-
-
-
-
-
-
 
 📜 License
 
