@@ -3,17 +3,6 @@
 This repository contains my **PostgreSQL solutions** for the [LeetCode SQL 50 Study Plan](https://leetcode.com/studyplan/top-sql-50/).  
 Each problem is categorized by difficulty (Easy / Medium / Hard) and written using clean, efficient SQL code.
 
----
-
-## 🧭 Table of Contents
-- [About](https://github.com/GunelXelilli/leetcode-postgresql-solutions/tree/main?tab=readme-ov-file#-about)
-- [Repository Structure](#repository-structure)
-- [Solved Problems](#solved-problems)
-- [Example Format](#example-format)
-- [Topics Covered](#topics-covered)
-- [Environment](#environment)
-- [License](#license)
-- [Contact](#contact)
 
 ---
 
