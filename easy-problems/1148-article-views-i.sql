@@ -2,13 +2,12 @@
 -- Link: https://leetcode.com/problems/article-views-i/
 -- Difficulty: Easy
 -- Description:
---   For each author, find the total number of views on their articles.
---   Return the author's name and the total views.
+--   Find all authors who have viewed at least one of their own articles.
+--   Return the author_id as 'id' sorted in ascending order.
 
-SELECT a.author_id,
-       COUNT(v.user_id) AS views_count
-FROM Articles a
-LEFT JOIN Views v ON a.article_id = v.article_id
-GROUP BY a.author_id
-ORDER BY a.author_id;
+SELECT DISTINCT author_id AS id
+FROM Views
+WHERE author_id = viewer_id
+ORDER BY id;
+
 
