@@ -2,13 +2,14 @@
 -- Link: https://leetcode.com/problems/product-sales-analysis-i/
 -- Difficulty: Easy
 -- Description:
---   For each product, return the total quantity sold. 
---   If a product has no sales, show 0 as the total quantity.
+--   Report the product_name, year, and price for each sale in the Sales table.
+--   Return the results in any order.
 
-SELECT p.product_id,
-       COALESCE(SUM(s.qty), 0) AS total_quantity
-FROM Product p
-LEFT JOIN Sales s ON p.product_id = s.product_id
-GROUP BY p.product_id
-ORDER BY p.product_id;
+SELECT p.product_name,
+       s.year,
+       s.price
+FROM Sales s
+JOIN Product p USING(product_id)
+ORDER BY p.product_name, s.year;
+
 
