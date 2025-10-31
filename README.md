@@ -113,7 +113,7 @@ WHERE id IN (
 | Basic Queries    | `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`     |
 | Joins            | `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`       |
 | Aggregation      | `COUNT()`, `SUM()`, `AVG()`, `MAX()`, `MIN()` |
-| Filtering        | `HAVING`, `CASE WHEN` ,'wWHERE'                        |
+| Filtering        | `HAVING`, `CASE WHEN` ,'wHERE'                        |
 | Subqueries       | `IN`, `EXISTS`, correlated subqueries         |
 | Window Functions | `RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`      |
 | CTEs             | `WITH` clause usage                           |
@@ -129,11 +129,12 @@ Platform: LeetCode SQL 50 Study Plan
 
 🏷️ Badges
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?logo=postgresql)
-![LeetCode](https://img.shields.io/badge/LeetCode-SQL%2050-orange?logo=leetcode)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Progress](https://img.shields.io/badge/Progress-29_Solutions-blue)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
+
+
+
+
+
+
 
 
 📜 License
@@ -142,12 +143,12 @@ This repository is open-source and licensed under the MIT License
 .
 You’re free to use, reference, or build upon this code for learning purposes.
 
-📫 Contact
 
-🧑‍💻 GitHub: GunelXelilli
+📫 **Contact**
 
-🐘 LeetCode: Gunel87
+- 🧑‍💻 GitHub: [GunelXelilli](https://github.com/GunelXelilli)  
+- 🐘 LeetCode: [Gunel87](https://leetcode.com/u/Gunel87/)  
+- 💼 LinkedIn: [Gunel Xelilli](https://www.linkedin.com/in/gunel-xelilli-390bb32b7/)
 
-💼 LinkedIn: Gunel Xelilli
 
 
