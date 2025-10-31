@@ -1,6 +1,6 @@
 -- Problem: The Number of Employees Which Report to Each Employee
 -- Link: https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/
--- Difficulty: Medium
+-- Difficulty: Easy
 -- Description:
 --   For each employee, find the number of direct reports and the average age of those reports.
 --   Return employee_id, name, reports_count, and average_age.
