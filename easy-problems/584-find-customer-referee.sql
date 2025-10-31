@@ -2,12 +2,14 @@
 -- Link: https://leetcode.com/problems/find-customer-referee/
 -- Difficulty: Easy
 -- Description:
---   Find all customers who have a referee (someone who referred them).
---   Return the customer_id and the referee_id.
+--   Find the names of customers who are either:
+--     1. Referred by a customer with id != 2
+--     2. Not referred by any customer (referee_id is NULL)
+--   Return the result in any order.
 
-SELECT customer_id,
-       referee_id
-FROM Customers
-WHERE referee_id IS NOT NULL
-ORDER BY customer_id;
+SELECT name
+FROM Customer
+WHERE referee_id IS NULL
+   OR referee_id != 2;
+
 
