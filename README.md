@@ -77,7 +77,7 @@ leetcode-postgresql-solutions/
 | 26 | [Friend Requests II: Who Has the Most Friends (602)](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | 🟠 Medium |
 | 27 | [Combine Two Tables (175)](https://leetcode.com/problems/combine-two-tables/) | 🟢 Easy |
 | 28 | [Rank Scores (178)](https://leetcode.com/problems/rank-scores/) | 🟠 Medium |
-| 29 | [Employees Earning More Than Their Managers (181)](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | 🟢 Easy |
+| 29 | [Employees Earning More Than Their Managers (181)](https://leetcode.com/problems/employees-earning-more-than-their-managers/) | 🟢 Easy | ,etc.
 
 🟢 Easy 🟠 Medium 🔴 Hard
 
@@ -111,7 +111,7 @@ WHERE id IN (
 | Basic Queries    | `SELECT`, `WHERE`, `DISTINCT`, `ORDER BY`     |
 | Joins            | `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`       |
 | Aggregation      | `COUNT()`, `SUM()`, `AVG()`, `MAX()`, `MIN()` |
-| Filtering        | `HAVING`, `CASE WHEN` ,'wHERE'                        |
+| Filtering        | `HAVING`, `CASE WHEN`, `WHERE`                |
 | Subqueries       | `IN`, `EXISTS`, correlated subqueries         |
 | Window Functions | `RANK()`, `DENSE_RANK()`, `ROW_NUMBER()`      |
 | CTEs             | `WITH` clause usage                           |
